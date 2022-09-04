@@ -26,7 +26,7 @@ css("style/style.css")
 
 lottie_gif = load_lottie("https://assets7.lottiefiles.com/packages/lf20_3rwasyjy.json")
 img_proj1 = Image.open("images/FRIDAY.png")
-
+img_proj2 = Image.open("images/1.png")
 
 
 with st.container():
@@ -77,6 +77,19 @@ with st.container():
             """
         )
         st.markdown("[Checkout the project source code here...](https://github.com/rpj09/FRIDAY-virtual-assistant)")
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+
+    with image_column:
+        st.image(img_proj2)
+
+    with text_column:
+
+        st.subheader("My personal portfolio website")
+
+        st.markdown("[Checkout the project source code here...](https://github.com/rpj09/Portfolio_website_using_python)")
+
 
 
 
