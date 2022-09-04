@@ -12,8 +12,8 @@ Followed some tutorials and explored documentation
     ```
     
 ## Screenshots
-![Screenshots](/screenshots/1.jpg?raw=true)
-![Screenshots](/screenshots/2.jpg?raw=true)
-![Screenshots](/screenshots/3.jpg?raw=true)
-![Screenshots](/screenshots/4.jpg?raw=true)
-![Screenshots](/screenshots/5.jpg?raw=true)
+![Screenshots](/images/1.jpg?raw=true)
+![Screenshots](/images/2.jpg?raw=true)
+![Screenshots](/images/3.jpg?raw=true)
+![Screenshots](/images/4.jpg?raw=true)
+![Screenshots](/images/5.jpg?raw=true)
