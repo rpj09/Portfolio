@@ -2,6 +2,5 @@ Pillow==9.2.0
 requests==2.25.1
 streamlit==1.12.2
 streamlit_lottie<0.0.3
-tk-tools<0.16.0
 protobuf~=3.19.0
 watchdog==2.1.8
