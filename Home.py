@@ -8,14 +8,14 @@ from PIL import Image
 #setting configurations
 st.set_page_config(page_title="My Portfolio",page_icon=":point_down:", layout="wide")
 
-@st.cache(allow_output_mutation=True)
+
 def load_lottie(link):
     r = requests.get(link)
     if r.status_code !=200:
         return  None
     return None if r.status_code != 200 else r.json()
 
-@st.cache(allow_output_mutation=True)
+
 def css(filename):
     with open(filename) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
