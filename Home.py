@@ -5,13 +5,12 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 
+#setting configurations
+st.set_page_config(page_title="My Portfolio",page_icon=":point_down:", layout="wide")
 
 @st.cache
 def main():
-    #setting configurations
-
-    st.set_page_config(page_title="My Portfolio",page_icon=":point_down:", layout="wide")
-
+    
     def load_lottie(link):
         r = requests.get(link)
         if r.status_code !=200:
