@@ -3,7 +3,7 @@ Searched alot for how to make website without using any framework.Finally found 
 Followed some tutorials and explored documentation 
 
 # Check out the website here
-📢 https://rpj09-portfolio-website-using-python-home-l44ir8.streamlitapp.com/
+📢 https://rpj09.github.io/Portfolio/
 
 
 ## Run the app
