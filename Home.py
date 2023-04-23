@@ -27,6 +27,8 @@ css("style/style.css")
 lottie_gif = load_lottie("https://assets7.lottiefiles.com/packages/lf20_3rwasyjy.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
+gireverb = Image.open("images/gireverb.png")
+
 
 
 with st.container():
@@ -90,6 +92,23 @@ with st.container():
 
         st.markdown("[Checkout the project source code here...](https://github.com/rpj09/Portfolio_website_using_python)")
 
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+
+    with image_column:
+        st.image(gireverb)
+
+    with text_column:
+
+        st.subheader("GitReverb")
+        st.write("""
+        A Social Media webapp for developers to share their projects and get feedback from other developers.
+        A web app to visualize your github profile and repositories.
+        """)
+        
+
+        st.markdown("[Checkout the project source code here...](https://github.com/rpj09/GitReverb)")
 
 
 
