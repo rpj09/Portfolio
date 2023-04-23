@@ -1,7 +1,5 @@
 import streamlit as st
-import requests
-import io
-import base64
+from PIL import Image
 
 
 #from IPython.display import HTML
@@ -18,15 +16,6 @@ st.title("Resume")
 st.text('coming soon...')
 
 st.text('here is my resume')
-# Display PDF at the bottom
-pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
-response = requests.get(pdf_url)
 
-with open("dummy.pdf", "wb") as f:
-    f.write(response.content)
-
-with open("dummy.pdf", "rb") as f:
-    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-
-pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="800" height="800" type="application/pdf"></iframe>'
-st.markdown(pdf_display, unsafe_allow_html=True)
+res1 = Image.open("res1.jpg")
+res2 = Image.open("res2.jpg")
