@@ -9,4 +9,5 @@ frontend==0.0.3
 mupdf
 fitz
 ipython
+requests
 #streamlit-pdf-viewer
