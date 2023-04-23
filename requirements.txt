@@ -6,5 +6,5 @@ protobuf~=3.19.0
 watchdog==2.1.8
 PyMuPDF==1.18.14
 frontend==0.0.3
-mupdf==1.18.0
+mupdf
 fitz==0.0.1
