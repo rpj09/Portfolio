@@ -1,5 +1,8 @@
 import streamlit as st
 import requests
+import io
+import base64
+
 
 #from IPython.display import HTML
 
