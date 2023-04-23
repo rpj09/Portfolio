@@ -17,6 +17,7 @@ st.title("Resume")
 
 st.text('coming soon...')
 
+st.text('here is my resume')
 # Display PDF at the bottom
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
 response = requests.get(pdf_url)
