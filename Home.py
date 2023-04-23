@@ -69,7 +69,8 @@ with st.container():
         st.image(img_proj1)
 
     with text_column:
-        st.subheader("Wanna make your life easier , I've got something for you")
+        st.subheader("FRIDAY")
+        st.write("Wanna make your life easier , I've got something for you")
         st.write(
             """
             Automate your linux/Windows System just at your voice!
