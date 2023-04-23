@@ -14,4 +14,5 @@ st.text('coming soon...')
 # Display PDF at the bottom
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
 pdf_height = 1000
-st.markdown(f'<iframe src="{pdf_url}" width="100%" height="{pdf_height}px"></iframe>', unsafe_allow_html=True)
+st.embed_pdf(pdf_url, width=700, height=900)
+#st.markdown(f'<iframe src="{pdf_url}" width="100%" height="{pdf_height}px"></iframe>', unsafe_allow_html=True)
