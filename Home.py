@@ -44,7 +44,7 @@ with st.container():
         st.write('##')
         st.write(
             """
-            Currently I am Student who just cleared High School
+            Currently I am In my 1st year of B.Tech in Computer Science and Engineering
             
             - Started My coding Journey Last year and Explored Python and automation stuff
             
