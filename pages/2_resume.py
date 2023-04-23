@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_pdf_viewer import embed_pdf
+import fitz
 
 def css(filename):
     with open(filename) as f:
@@ -13,9 +13,16 @@ st.text('coming soon....')
 
 
 st.text('Here is my Resume')
-# Display PDF at the bottom
+
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
 pdf_height = 800
-embed_pdf(pdf_url, height=pdf_height)
+
+with fitz.open(pdf_url) as doc:
+    pdf_data = doc.convert_to_html()
+st.markdown(pdf_data, unsafe_allow_html=True)
+# Display PDF at the bottom
+# pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
+# pdf_height = 800
+# embed_pdf(pdf_url, height=pdf_height)
 
 #st.markdown(f'<iframe src="{pdf_url}" width="100%" height="{pdf_height}" frameborder="0"></iframe>', unsafe_allow_html=True)
