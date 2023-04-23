@@ -12,7 +12,7 @@ st.title("Resume")
 st.text('coming soon....')
 
 
-
+st.text('Here is my Resume')
 # Display PDF at the bottom
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
 pdf_height = 800
