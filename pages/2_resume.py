@@ -1,4 +1,5 @@
 import streamlit as st
+import embed_pdf
 
 def css(filename):
     with open(filename) as f:
@@ -13,6 +14,8 @@ st.text('coming soon....')
 
 
 # Display PDF at the bottom
-pdf_url = "https://github.com/rpj09/Portfolio/blob/master/images/Resume-Ripunjay-Singh%2Bnew.pdf?raw=true"
+pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
 pdf_height = 800
-st.markdown(f'<iframe src="{pdf_url}" width="100%" height="{pdf_height}" frameborder="0"></iframe>', unsafe_allow_html=True)
+embed_pdf(pdf_url, height=pdf_height)
+
+#st.markdown(f'<iframe src="{pdf_url}" width="100%" height="{pdf_height}" frameborder="0"></iframe>', unsafe_allow_html=True)
