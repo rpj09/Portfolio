@@ -16,6 +16,7 @@ st.text('coming soon...')
 
 # Display PDF at the bottom
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
+response = requests.get(pdf_url)
 #pdf_height = 1000
 with open("dummy.pdf", "wb") as f:
     f.write(response.content)
