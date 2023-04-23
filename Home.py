@@ -27,7 +27,7 @@ css("style/style.css")
 lottie_gif = load_lottie("https://assets7.lottiefiles.com/packages/lf20_3rwasyjy.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
-gireverb = Image.open("images/gireverb.jpeg")
+gireverb = Image.open("images/gitreverb.png")
 
 
 
