@@ -8,7 +8,7 @@ css("style/style.css")
 
 st.title("Resume")
 
-st.text('coming soon...')
+st.text('coming soon....')
 
 
 
