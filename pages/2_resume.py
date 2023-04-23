@@ -1,5 +1,4 @@
 import streamlit as st
-import embed_pdf
 
 def css(filename):
     with open(filename) as f:
