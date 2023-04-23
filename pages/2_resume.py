@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_pdf_viewer import embed_pdf
 
 def css(filename):
     with open(filename) as f:
@@ -12,6 +13,5 @@ st.text('coming soon...')
 
 # Display PDF at the bottom
 pdf_url = "https://raw.githubusercontent.com/rpj09/Portfolio/master/images/rpjres.pdf"
-
-
-st.pdf_viewer(pdf_url)
+pdf_height = 800
+embed_pdf(pdf_url, height=pdf_height)
