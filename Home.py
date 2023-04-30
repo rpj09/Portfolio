@@ -33,7 +33,7 @@ git_lottie = load_lottie("https://assets9.lottiefiles.com/private_files/lf30_03c
 github_lottie = load_lottie("https://assets6.lottiefiles.com/packages/lf20_6HFXXE.json")
 Andorid_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_fztluxdp.json")
 Docker_lottie = load_lottie("https://assets4.lottiefiles.com/private_files/lf30_35uv2spq.json")
-Linux_lottie = load_lottie("https://assets4.lottiefiles.com/packages/lf20_6HFXXE.json")
+Linux_lottie = load_lottie("https://assets2.lottiefiles.com/packages/lf20_drcnxdtp.json")
 Xcode_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_6HFXXE.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
@@ -177,6 +177,10 @@ with st.container():
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
             st.write("Linux")
         with col2:
+            st_lottie(Docker_lottie,height=70,width=70, key="docker", speed=2.5)
+            #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Docker")
+        with col3:
             st_lottie(Xcode_lottie,height=70,width=70, key="Xcode", speed=2.5)
             #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
             st.write("Xcode")
