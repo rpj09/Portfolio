@@ -148,6 +148,7 @@ with st.container():
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
+            st.image("https://static.djangoproject.com/img/logos/django-logo-positive.png", use_column_width=True)
             #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
             st.write("Flask")
         with col2:
