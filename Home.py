@@ -134,7 +134,7 @@ with st.container():
             #st.image(Image.open('javascript_logo.png').resize((100,100)), use_column_width=True)
             st.write("    Swift")
         with col1:
-            st_lottie(my_sql_lottie,height=70,width=70, key="swift", speed=2.5)
+            st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
             #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
             st.write("MYSQL")
         with col2:
