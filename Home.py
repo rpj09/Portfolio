@@ -29,6 +29,12 @@ python_lottie = load_lottie("https://assets6.lottiefiles.com/packages/lf20_2znxg
 java_lottie = load_lottie("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
 swift_lottie = load_lottie("https://assets3.lottiefiles.com/packages/lf20_inopzfvq.json")
 my_sql_lottie = load_lottie("https://assets4.lottiefiles.com/private_files/lf30_w11f2rwn.json")
+git_lottie = load_lottie("https://assets9.lottiefiles.com/private_files/lf30_03cuemhb.json")
+github_lottie = load_lottie("https://assets6.lottiefiles.com/packages/lf20_6HFXXE.json")
+Andorid_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_fztluxdp.json")
+Docker_lottie = load_lottie("https://assets4.lottiefiles.com/private_files/lf30_35uv2spq.json")
+Linux_lottie = load_lottie("")
+Xcode_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_6HFXXE.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
@@ -137,20 +143,7 @@ with st.container():
             st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
             #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
             st.write("MYSQL")
-        with col2:
-            #st.image(Image.open('html_css_logo.png').resize((100,100)), use_column_width=True)
-            st.write("HTML/CSS")
 
-        st.markdown(
-            """
-            <style>
-            .column {text-align: center;}
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
-        for col in [col1, col2, col3]:
-            col.markdown("<div class='column'></div>", unsafe_allow_html=True)
     st.subheader("Frameworks")
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
@@ -160,33 +153,33 @@ with st.container():
         with col2:
             #st.image(Image.open('django_logo.png').resize((100,100)), use_column_width=True)
             st.write("Django")
-        with col3:
-            #st.image(Image.open('react_logo.png').resize((100,100)), use_column_width=True)
-            st.write("React")
-        with col1:
-            #st.image(Image.open('angular_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Angular")
-        with col2:
-            #st.image(Image.open('nodejs_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Node.js")
+
     st.subheader("Tools")
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
+            st_lottie(git_lottie,height=70,width=70, key="Git", speed=2.5)
             #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
             st.write("Git")
+        with col1:
+            st_lottie(github_lottie,height=70,width=70, key="Github", speed=2.5)
+            #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
+            st.write("GitHub")
         with col2:
+            st_lottie(Andorid_lottie,height=70,width=70, key="Android Studio", speed=2.5)
             #st.image(Image.open('jupyter_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Jupyter Notebook")
+            st.write("Android Studio")
         with col3:
             #st.image(Image.open('vscode_logo.png').resize((100,100)), use_column_width=True)
             st.write("VS Code")
         with col1:
+            st_lottie(Linux_lottie,height=70,width=70, key="Linux", speed=2.5)
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
-            st.write("PyCharm")
+            st.write("Linux")
         with col2:
+            st_lottie(Xcode_lottie,height=70,width=70, key="Xcode", speed=2.5)
             #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
-            st.write("MySQL Workbench")
+            st.write("Xcode")
 
 
 with st.container():
