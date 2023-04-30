@@ -24,18 +24,18 @@
 primaryColor = '#E694FF'
 
 # Background color for the main content area  
-backgroundColor = 'linear-gradient(to bottom, #FFF9C4, #F5F5F5)' 
+backgroundColor = '#F8F8F8' 
 
 # Background color for sidebar and most interactive widgets 
 secondaryBackgroundColor = '#FFFFFF'
 
 # Color used for almost all text
-textColor = '#333333'
+textColor = '#444444'
 
 # Font family for all text in the app, except code blocks
 # Accepted values (serif | sans serif | monospace) 
 # Default: "sans serif"
-font = "Helvetica"
+font = "Helvetica Neue"
 
 # Width of the main content area in pixels
 mainWidth = 800
@@ -52,13 +52,13 @@ boxShadow = '0px 3px 10px rgba(0, 0, 0, 0.2)'
 # Styling for the header text
 [theme.Header]
 backgroundColor = '#FFFFFF'
-textColor = '#333333'
-font = 'Helvetica-Bold'
-fontSize = '30px'
+textColor = '#444444'
+font = 'Helvetica Neue'
+fontSize = '36px'
 
 # Styling for the sidebar
 [theme.Sidebar]
-backgroundColor = '#F5F5F5'
-textColor = '#333333'
-font = 'Helvetica'
+backgroundColor = '#F8F8F8'
+textColor = '#444444'
+font = 'Helvetica Neue'
 fontSize = '16px'
