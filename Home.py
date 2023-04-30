@@ -126,7 +126,7 @@ with st.container():
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
             st.write("Python")
         with col2:
-            st_lottie(java_lottie, height=70,width=70, key="java", speed=2.5)
+            st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
             #st.image(Image.open('java_logo.png').resize((100,100)), use_column_width=True)
             st.write("Java")
         with col3:
