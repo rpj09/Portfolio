@@ -33,7 +33,7 @@ textColor = '#D9D9D9'
 # Font family for all text in the app, except code blocks
 # Accepted values (serif | sans serif | monospace) 
 # Default: "sans serif"
-font = "Helvetica Neue"
+font = "sans serif"
 
 # Width of the main content area in pixels
 mainWidth = 800
