@@ -95,7 +95,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
 
     with image_column:
-        st.image(img_proj2)
+        st.image(img_proj2,width=300)
 
     with text_column:
 
@@ -138,7 +138,7 @@ with st.container():
         with col3:
             st_lottie(swift_lottie,height=70,width=70, key="swift", speed=2.5)
             #st.image(Image.open('javascript_logo.png').resize((100,100)), use_column_width=True)
-            st.write("\tSwift")
+            st.write("Swift")
         with col1:
             st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
             #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
