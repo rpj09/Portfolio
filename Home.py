@@ -172,7 +172,7 @@ with st.container():
             #st.image(Image.open('jupyter_logo.png').resize((100,100)), use_column_width=True)
             st.write("Android Studio")
         with col3:
-            st.image("https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",width=90)
+            st.image("https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",width=80)
             #st.image(Image.open('vscode_logo.png').resize((100,100)), use_column_width=True)
             st.write("VS Code")
         with col1:
@@ -184,7 +184,7 @@ with st.container():
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
             st.write("Docker")
         with col3:
-            st.image("https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg",width=180)
+            st.image("https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg",width=160)
             #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
             st.write("Xcode")
 
