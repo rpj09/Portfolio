@@ -146,7 +146,7 @@ with st.container():
         for col in [col1, col2, col3]:
             col.markdown("<div class='column'></div>", unsafe_allow_html=True)
     st.subheader("Frameworks")
-    with st.container:
+    with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
             #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
