@@ -152,6 +152,7 @@ with st.container():
             #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
             st.write("Flask")
         with col2:
+            st.image("https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg",width=70)
             #st.image(Image.open('django_logo.png').resize((100,100)), use_column_width=True)
             st.write("Django")
 
