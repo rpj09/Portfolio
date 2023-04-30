@@ -35,6 +35,7 @@ Andorid_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_fztl
 Docker_lottie = load_lottie("https://assets4.lottiefiles.com/private_files/lf30_35uv2spq.json")
 Linux_lottie = load_lottie("https://assets2.lottiefiles.com/packages/lf20_drcnxdtp.json")
 Xcode_lottie = load_lottie("https://assets8.lottiefiles.com/packages/lf20_6HFXXE.json")
+firebase_lottie = load_lottie("https://assets5.lottiefiles.com/private_files/lf30_52jsgl4a.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
@@ -130,19 +131,23 @@ with st.container():
         with col1:
             st_lottie(python_lottie, height=70,width=70, key="python", speed=2.5)
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Python")
+            #st.write("Python")
         with col2:
             st_lottie(java_lottie, height=70,width=70, key="java", speed=4)
             #st.image(Image.open('java_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Java")
+            #st.write("Java")
         with col3:
             st_lottie(swift_lottie,height=70,width=70, key="swift", speed=2.5)
             #st.image(Image.open('javascript_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Swift")
+            #st.write("Swift")
         with col1:
             st_lottie(my_sql_lottie,height=70,width=70, key="mysql", speed=2.5)
             #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
-            st.write("MYSQL")
+            #st.write("MYSQL")
+        with col2:
+            st_lottie(firebase_lottie, height=70,width=70, key="Firebase", speed=4)
+
+
 
     st.subheader("Frameworks:")
     with st.container():
