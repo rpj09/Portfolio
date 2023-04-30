@@ -150,11 +150,11 @@ with st.container():
         with col1:
             st.image("https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg",width=70)
             #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Flask")
+            #st.write("Flask")
         with col2:
             st.image("https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg",width=70)
             #st.image(Image.open('django_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Django")
+            #st.write("Django")
 
     st.subheader("Tools:")
     with st.container():
@@ -180,7 +180,7 @@ with st.container():
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
             #st.write("Linux")
         with col2:
-            st_lottie(Docker_lottie,height=70,width=70, key="docker", speed=2.5)
+            st_lottie(Docker_lottie,height=100,width=100, key="docker", speed=2.5)
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
             #st.write("Docker")
         with col3:
