@@ -134,6 +134,17 @@ with st.container():
         with col2:
             #st.image(Image.open('html_css_logo.png').resize((100,100)), use_column_width=True)
             st.write("HTML/CSS")
+
+        st.markdown(
+            """
+            <style>
+            .column {text-align: center;}
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+        for col in [col1, col2, col3]:
+            col.markdown("<div class='column'></div>", unsafe_allow_html=True)
     st.subheader("Frameworks")
     with st.beta_container():
         col1, col2, col3 = st.beta_columns([1, 1, 1])
