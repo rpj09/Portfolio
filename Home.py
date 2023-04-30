@@ -26,6 +26,7 @@ css("style/style.css")
 
 lottie_gif = load_lottie("https://assets7.lottiefiles.com/packages/lf20_3rwasyjy.json")
 python_lottie = load_lottie("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
+java_lottie = load_lottie("https://assets9.lottiefiles.com/packages/lf20_zh6xtlj9.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
@@ -123,6 +124,7 @@ with st.container():
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
             st.write("Python")
         with col2:
+            st_lottie(java_lottie, height=100, key="java", speed=2.5)
             #st.image(Image.open('java_logo.png').resize((100,100)), use_column_width=True)
             st.write("Java")
         with col3:
