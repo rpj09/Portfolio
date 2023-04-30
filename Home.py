@@ -25,6 +25,7 @@ css("style/style.css")
 #loading assets
 
 lottie_gif = load_lottie("https://assets7.lottiefiles.com/packages/lf20_3rwasyjy.json")
+python_lottie = load_lottie("https://assets6.lottiefiles.com/packages/lf20_2znxgjyt.json")
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
@@ -118,6 +119,7 @@ with st.container():
     with st.beta_container():
         col1, col2, col3 = st.beta_columns([1, 1, 1])
         with col1:
+            st_lottie(python_lottie, height=100, key="python", speed=2.5,use_container_width=True)
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
             st.write("Python")
         with col2:
