@@ -6,7 +6,7 @@ from PIL import Image
 
 
 #setting configurations
-st.set_page_config(page_title="My Portfolio",page_icon=":point_down:", layout="wide")
+st.set_page_config(page_title="Ripunjay Singh Portfolio", layout="wide")
 
 
 def load_lottie(link):
