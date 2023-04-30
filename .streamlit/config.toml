@@ -4,7 +4,7 @@
 primaryColor = '#E694FF'
 
 # Background color for the main content area  
-backgroundColor = '#02539D' #00172B
+backgroundColor =   linear-gradient(90deg, #4b6cb7 0%, #182848 100%) #'#02539D' 00172B
 
 # Background color for sidebar and most interactive widgets 
 secondaryBackgroundColor = '#00001c' 
