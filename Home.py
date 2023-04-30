@@ -184,7 +184,7 @@ with st.container():
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
             st.write("Docker")
         with col3:
-            st_lottie(Xcode_lottie,height=70,width=70, key="Xcode", speed=2.5)
+            st.image("https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg",width=70)
             #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
             st.write("Xcode")
 
