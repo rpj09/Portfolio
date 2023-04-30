@@ -162,31 +162,31 @@ with st.container():
         with col1:
             st_lottie(git_lottie,height=70,width=70, key="Git", speed=2.5)
             #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Git")
+            #st.write("Git")
         with col1:
             st_lottie(github_lottie,height=70,width=70, key="Github", speed=2.5)
             #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
-            st.write("GitHub")
+            #st.write("GitHub")
         with col2:
             st_lottie(Andorid_lottie,height=70,width=70, key="Android Studio", speed=2.5)
             #st.image(Image.open('jupyter_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Android Studio")
+            #st.write("Android Studio")
         with col3:
             st.image("https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",width=80)
             #st.image(Image.open('vscode_logo.png').resize((100,100)), use_column_width=True)
-            st.write("VS Code")
+            #st.write("VS Code")
         with col1:
             st_lottie(Linux_lottie,height=70,width=70, key="Linux", speed=2.5)
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Linux")
+            #st.write("Linux")
         with col2:
             st_lottie(Docker_lottie,height=70,width=70, key="docker", speed=2.5)
             #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Docker")
+            #st.write("Docker")
         with col3:
             st.image("https://www.vectorlogo.zone/logos/apple_xcode/apple_xcode-ar21.svg",width=160)
             #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
-            st.write("Xcode")
+            #st.write("Xcode")
 
 
 with st.container():
