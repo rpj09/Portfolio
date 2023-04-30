@@ -111,9 +111,63 @@ with st.container():
 
         st.markdown("[Checkout the project source code here...](https://github.com/rpj09/GitReverb)")
 
+with st.container():
 
-
-
+    st.header("I have my skill set in:")
+    st.subheader("Languages")
+    with st.beta_container():
+        col1, col2, col3 = st.beta_columns([1, 1, 1])
+        with col1:
+            #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Python")
+        with col2:
+            #st.image(Image.open('java_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Java")
+        with col3:
+            #st.image(Image.open('javascript_logo.png').resize((100,100)), use_column_width=True)
+            st.write("JavaScript")
+        with col1:
+            #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
+            st.write("SQL")
+        with col2:
+            #st.image(Image.open('html_css_logo.png').resize((100,100)), use_column_width=True)
+            st.write("HTML/CSS")
+    st.subheader("Frameworks")
+    with st.beta_container():
+        col1, col2, col3 = st.beta_columns([1, 1, 1])
+        with col1:
+            #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Flask")
+        with col2:
+            #st.image(Image.open('django_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Django")
+        with col3:
+            #st.image(Image.open('react_logo.png').resize((100,100)), use_column_width=True)
+            st.write("React")
+        with col1:
+            #st.image(Image.open('angular_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Angular")
+        with col2:
+            #st.image(Image.open('nodejs_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Node.js")
+    st.subheader("Tools")
+    with st.beta_container():
+        col1, col2, col3 = st.beta_columns([1, 1, 1])
+        with col1:
+            #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Git")
+        with col2:
+            #st.image(Image.open('jupyter_logo.png').resize((100,100)), use_column_width=True)
+            st.write("Jupyter Notebook")
+        with col3:
+            #st.image(Image.open('vscode_logo.png').resize((100,100)), use_column_width=True)
+            st.write("VS Code")
+        with col1:
+            #st.image(Image.open('pycharm_logo.png').resize((100,100)), use_column_width=True)
+            st.write("PyCharm")
+        with col2:
+            #st.image(Image.open('mysql_logo.png').resize((100,100)), use_column_width=True)
+            st.write("MySQL Workbench")
 
 
 with st.container():
