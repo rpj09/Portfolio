@@ -124,7 +124,7 @@ with st.container():
 with st.container():
 
     st.header("My Skills :")
-    st.subheader("Languages")
+    st.subheader("Languages:")
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
@@ -144,7 +144,7 @@ with st.container():
             #st.image(Image.open('sql_logo.png').resize((100,100)), use_column_width=True)
             st.write("MYSQL")
 
-    st.subheader("Frameworks")
+    st.subheader("Frameworks:")
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
@@ -156,7 +156,7 @@ with st.container():
             #st.image(Image.open('django_logo.png').resize((100,100)), use_column_width=True)
             st.write("Django")
 
-    st.subheader("Tools")
+    st.subheader("Tools:")
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
