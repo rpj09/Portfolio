@@ -122,15 +122,15 @@ with st.container():
     with st.container():
         col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
-            st_lottie(python_lottie, height=100, key="python", speed=2.5)
+            st_lottie(python_lottie, height=70,width=70, key="python", speed=2.5)
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
             st.write("Python")
         with col2:
-            st_lottie(java_lottie, height=50,width=50, key="java", speed=2.5)
+            st_lottie(java_lottie, height=70,width=70, key="java", speed=2.5)
             #st.image(Image.open('java_logo.png').resize((100,100)), use_column_width=True)
             st.write("Java")
         with col3:
-            st_lottie(swift_lottie, height=100, key="swift", speed=2.5)
+            st_lottie(swift_lottie,height=70,width=70, key="swift", speed=2.5)
             #st.image(Image.open('javascript_logo.png').resize((100,100)), use_column_width=True)
             st.write("Swift")
         with col1:
