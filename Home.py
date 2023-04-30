@@ -95,7 +95,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
 
     with image_column:
-        st.image(img_proj2,width=300)
+        st.image(img_proj2)
 
     with text_column:
 
@@ -108,7 +108,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
 
     with image_column:
-        st.image(gireverb)
+        st.image(gireverb, width=200)
 
     with text_column:
 
