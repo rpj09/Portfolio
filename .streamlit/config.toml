@@ -16,21 +16,19 @@
 # # Accepted values (serif | sans serif | monospace) 
 # # Default: "sans serif"
 # font = "sans serif"
-
-
 [theme]
 
 # Primary accent for interactive elements 
-primaryColor = '#E694FF'
+primaryColor = '#EF476F'
 
 # Background color for the main content area  
-backgroundColor = '#F8F8F8' 
+backgroundColor = '#FFFFFF'
 
 # Background color for sidebar and most interactive widgets 
-secondaryBackgroundColor = '#FFFFFF'
+secondaryBackgroundColor = '#F7F7F7'
 
 # Color used for almost all text
-textColor = '#444444'
+textColor = '#333333'
 
 # Font family for all text in the app, except code blocks
 # Accepted values (serif | sans serif | monospace) 
@@ -47,18 +45,18 @@ mainPadding = 20
 borderRadius = 5
 
 # Box shadow for most interactive widgets
-boxShadow = '0px 3px 10px rgba(0, 0, 0, 0.2)'
+boxShadow = '0px 3px 10px rgba(0, 0, 0, 0.1)'
 
 # Styling for the header text
 [theme.Header]
 backgroundColor = '#FFFFFF'
-textColor = '#444444'
+textColor = '#333333'
 font = 'Helvetica Neue'
 fontSize = '36px'
 
 # Styling for the sidebar
 [theme.Sidebar]
-backgroundColor = '#F8F8F8'
-textColor = '#444444'
+backgroundColor = '#F7F7F7'
+textColor = '#333333'
 font = 'Helvetica Neue'
 fontSize = '16px'
