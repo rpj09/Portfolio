@@ -119,7 +119,7 @@ with st.container():
     with st.beta_container():
         col1, col2, col3 = st.beta_columns([1, 1, 1])
         with col1:
-            st_lottie(python_lottie, height=100, key="python", speed=2.5,use_container_width=True)
+            st_lottie(python_lottie, height=100, key="python", speed=2.5)
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
             st.write("Python")
         with col2:
