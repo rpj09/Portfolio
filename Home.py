@@ -172,7 +172,7 @@ with st.container():
             #st.image(Image.open('jupyter_logo.png').resize((100,100)), use_column_width=True)
             st.write("Android Studio")
         with col3:
-            st.image("https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",width=70)
+            st.image("https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",width=90)
             #st.image(Image.open('vscode_logo.png').resize((100,100)), use_column_width=True)
             st.write("VS Code")
         with col1:
