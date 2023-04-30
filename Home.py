@@ -116,8 +116,8 @@ with st.container():
 
     st.header("I have my skill set in:")
     st.subheader("Languages")
-    with st.beta_container():
-        col1, col2, col3 = st.beta_columns([1, 1, 1])
+    with st.container():
+        col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
             st_lottie(python_lottie, height=100, key="python", speed=2.5)
             #st.image(Image.open('python_logo.png').resize((100,100)), use_column_width=True)
@@ -146,8 +146,8 @@ with st.container():
         for col in [col1, col2, col3]:
             col.markdown("<div class='column'></div>", unsafe_allow_html=True)
     st.subheader("Frameworks")
-    with st.beta_container():
-        col1, col2, col3 = st.beta_columns([1, 1, 1])
+    with st.container:
+        col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
             #st.image(Image.open('flask_logo.png').resize((100,100)), use_column_width=True)
             st.write("Flask")
@@ -164,8 +164,8 @@ with st.container():
             #st.image(Image.open('nodejs_logo.png').resize((100,100)), use_column_width=True)
             st.write("Node.js")
     st.subheader("Tools")
-    with st.beta_container():
-        col1, col2, col3 = st.beta_columns([1, 1, 1])
+    with st.container():
+        col1, col2, col3 = st.columns([1, 1, 1])
         with col1:
             #st.image(Image.open('git_logo.png').resize((100,100)), use_column_width=True)
             st.write("Git")
