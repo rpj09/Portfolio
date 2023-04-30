@@ -76,7 +76,7 @@ with st.container():
     st.header("My Projects")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_proj1, width=350)
+        st.image(img_proj1)
 
     with text_column:
         st.subheader("FRIDAY")
