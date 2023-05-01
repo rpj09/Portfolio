@@ -22,7 +22,7 @@
 primaryColor = '#E6B447'
 
 # Background color for the main content area  
-backgroundColor = '#232323'
+backgroundColor = '#0A0A0A'
 
 # Background color for sidebar and most interactive widgets 
 secondaryBackgroundColor = '#161616'
