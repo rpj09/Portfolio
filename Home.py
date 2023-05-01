@@ -16,10 +16,10 @@ opacity: 0.7;
 </style>
 
 """
-st.markdown(pg_bg_gradient, unsafe_allow_html=True)
+
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio", layout="wide")
-
+st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 
 def load_lottie(link):
     r = requests.get(link)
