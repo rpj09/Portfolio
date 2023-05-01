@@ -24,12 +24,14 @@ input[type=message], input[type=email], input[type=text], textarea {
     background-color: #45a049;
   }
   
-  .css-41u93z {
-    position: absolute;
-    color: rgb(25, 34, 59);
+.css-41u93z {
     background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
-    inset: 0px;
     overflow: hidden;
+}
+
+body{
+  background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
+
 }
   
   /* Hide Streamlit Branding */
