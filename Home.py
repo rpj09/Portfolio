@@ -11,7 +11,7 @@ pg_bg_gradient = """
 <style>
 [class="main css-uf99v8 egzxvld5"]{
 background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
-opacity: 0.7;
+opacity: 0.9;
 }
 </style>
 
