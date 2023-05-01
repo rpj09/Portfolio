@@ -14,7 +14,7 @@ css("style/style.css")
 pg_bg_gradient = """
 
 <style>
-body {
+[class="styles_streamlitAppContainer__2rBcU"]{
 background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
 }
 </style>
