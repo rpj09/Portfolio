@@ -5,6 +5,18 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 
+
+pg_bg_gradient = """
+
+<style>
+[class="main css-uf99v8 egzxvld5"]{
+background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+opacity: 0.7;
+}
+</style>
+
+"""
+st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio", layout="wide")
 
