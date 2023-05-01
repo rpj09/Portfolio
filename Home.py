@@ -10,9 +10,7 @@ pg_bg_gradient = """
 
 <style>
 [class="main css-uf99v8 egzxvld5"]{
-background-image: radial-gradient(ellipse at center, #1a1a1a 0%, #333333 100%);
-background-image: radial-gradient(ellipse at bottom right, #1a1a1a 0%, #333333 100%);
-background-image: radial-gradient(ellipse at top left, #1a1a1a 0%, #333333 100%);
+background-image: radial-gradient(circle, #1a1a1a 0%, #333333 100%);
 opacity: 0.9;
 }
 </style>
