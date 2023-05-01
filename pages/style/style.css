@@ -23,19 +23,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   button[type=submit]:hover {
     background-color: #45a049;
   }
-  
-.css-1wrcr25 {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    place-content: flex-start;
-    -webkit-box-align: stretch;
-    align-items: stretch;
-    position: absolute;
-    inset: 0px;
-    overflow: hidden;
-    background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
-}
+
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
   footer {visibility: hidden;}
