@@ -11,6 +11,16 @@ def css(filename):
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
 css("style/style.css")
+pg_bg_gradient = """
+
+<style>
+[class="stApp stAppEmbeddingId-rtzpobl533wt streamlit-wide css-l5bv2g eczokvf1"]{
+background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
+}
+</style>
+
+"""
+st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 
 st.title("Resume")
 st.markdown("## Ripunjay Singh")
