@@ -11,16 +11,15 @@ def css(filename):
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
 css("style/style.css")
-pg_bg_gradient = """
-
+pg_bg= """
 <style>
-[class="styles_stateContainer__29Rp6"]{
+[class="appview-container css-1wrcr25 egzxvld6"]{
 background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
 }
 </style>
 
 """
-st.markdown(pg_bg_gradient, unsafe_allow_html=True)
+st.markdown(pg_bg, unsafe_allow_html=True)
 
 st.title("Resume")
 st.markdown("## Ripunjay Singh")
