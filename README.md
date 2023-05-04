@@ -3,7 +3,7 @@ Searched alot for how to make website without using any framework.Finally found 
 Followed some tutorials and explored documentation 
 
 # Check out the website here
-📢 https://rpj-dev.streamlit.app/
+📢 https://rpj09.github.io/Portfolio/
 
 
 ## Run the app
