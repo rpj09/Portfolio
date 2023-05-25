@@ -54,7 +54,8 @@ img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
 
-
+with right_column:
+    st_lottie(lottie_gif, height=100, key="co")
 
 with st.container():
     st.subheader("Hi, I am Ripunjay :wave:")
@@ -62,8 +63,6 @@ with st.container():
     st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
     st.write("[Explore more about my work>](https://github.com/rpj09)")
     left_column,right_column = st.columns(2)
-    with right_column:
-        st_lottie(lottie_gif, height=100, key="co")
     with left_column:
         st.write("---")
         st.header("What do I do")
