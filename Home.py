@@ -22,6 +22,14 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="collapsed")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
+st.markdown("""
+    <style>
+        .stApp {
+            max-width: 100%;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 
 def load_lottie(link):
     r = requests.get(link)
