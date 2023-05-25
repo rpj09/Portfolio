@@ -20,7 +20,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 #background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
 
 #setting configurations
-st.set_page_config(page_title="Ripunjay Singh Portfolio", layout="wide")
+st.set_page_config(page_title="Ripunjay Singh Portfolio")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 
 def load_lottie(link):
