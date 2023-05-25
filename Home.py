@@ -53,6 +53,7 @@ firebase_lottie = load_lottie("https://assets5.lottiefiles.com/private_files/lf3
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
+github_card = Image.open("images/githubcard-modified.png")
 
 with st.container():
     left_column,right_column = st.columns(2)
@@ -62,13 +63,9 @@ with st.container():
         st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
         st.write("[Explore more about my work>](https://github.com/rpj09)")
     with right_column:
-        st_lottie(lottie_gif, height=100, key="cod")
+        st.image(github_card,height=200)
 
 with st.container():
-    st.subheader("Hi, I am Ripunjay :wave:")
-    st.title("A passionate learner and Python Developer")
-    st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
-    st.write("[Explore more about my work>](https://github.com/rpj09)")
     left_column,right_column = st.columns(2)
     with left_column:
         st.write("---")
