@@ -24,11 +24,13 @@ st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_s
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown("""
     <style>
-        .stApp {
-            max-width: 100%;
-        }
+    [class="block-container css-z5fcl4 egzxvld4"]{
+    padding-right: 0.25rem;
+
     </style>
-""", unsafe_allow_html=True)
+
+    """
+    , unsafe_allow_html=True)
 
 
 def load_lottie(link):
