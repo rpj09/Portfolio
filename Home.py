@@ -53,7 +53,7 @@ firebase_lottie = load_lottie("https://assets5.lottiefiles.com/private_files/lf3
 img_proj1 = Image.open("images/FRIDAY.png")
 img_proj2 = Image.open("images/1.png")
 gireverb = Image.open("images/gitreverb.png")
-github_card = Image.open("images/githubcard.png")
+github_card = Image.open("images/gtihubcard.png")
 
 with st.container():
     left_column,right_column = st.columns(2)
