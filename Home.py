@@ -25,7 +25,7 @@ st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown("""
     <style>
     [class="block-container css-z5fcl4 egzxvld4"]{
-    padding-right: 0.25rem;
+    padding-right: 1rem;
 
     </style>
 
