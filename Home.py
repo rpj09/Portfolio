@@ -17,11 +17,6 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 """
 
 card = """
-<div class="css-1kyxreq etr89bj2">
-
-  <img src="https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80" alt="Image 2">
-</div>
-<style>
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
@@ -35,19 +30,24 @@ card = """
   position: relative;
 }
 
-[class="css-1kyxreq etr89bj2"]:hover img {
+[class="css-1kyxreq etr89bj2"]:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80"); /* Replace with img2 URL */
+  background-repeat: no-repeat;
+  background-size: cover;
   transform: rotateY(180deg);
   z-index: 1;
 }
 
-[class="css-1kyxreq etr89bj2"] img:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
+[class="css-1kyxreq etr89bj2"] img {
+  position: relative;
   z-index: 2;
 }
-</style>
-
 """
 #background-image: linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(4,34,54,1) 50%, rgba(9,16,21,1) 100%);
 
