@@ -21,6 +21,15 @@ card = """
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
+.css-1kyxreq etr89bj2 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.css-1kyxreq etr89bj2:hover img {
+  transform: rotateY(180deg);
+}
 
 </style>
 
