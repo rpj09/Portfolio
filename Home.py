@@ -98,7 +98,7 @@ with st.container():
             """
         )
     with right_column:
-        st.image(github_card,width=300)      
+        st.image(github_card,width=400)      
 
 
 with st.container():
