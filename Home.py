@@ -23,11 +23,11 @@ card = """
 <style>
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
+}
+[class="css-1v0mbdj etr89bj1"]{
     box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
-
-
 }
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
