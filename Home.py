@@ -244,3 +244,24 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty() 
+
+
+#new card
+def flip_card(card):
+    """Flips a card over."""
+    card.style.apply("transform: rotateY(180deg);", 0.5)
+
+def change_style(card):
+    """Changes the style of the card when the mouse pointer is hovered over it."""
+    card.style.apply("box-shadow: 0 0 0 2px #f0f, 0 0 0 3px #f0f;", 0.5)
+# Load the images
+front_image = Image.open("images/gitcardmain.png")
+back_image = Image.open("images/gitcardmain.png")
+
+# Create a card
+card = st.card(
+  title="My Card",
+  content=front_image,
+  on_mouseover=change_style
+)
+
