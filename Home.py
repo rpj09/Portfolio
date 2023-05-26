@@ -26,6 +26,7 @@ st.markdown("""
     <style>
     [class="block-container css-z5fcl4 egzxvld4"]{
     padding-right: 1rem;
+    padding-left: 1rem;
 
     </style>
 
@@ -269,8 +270,8 @@ div = st.div(
 )
 
 # Add a listener for mouseenter and mouseleave events
-div.on_mouseenter(lambda: div.style.background_color = "red")
-div.on_mouseleave(lambda: div.style.background_color = "white")
+#div.on_mouseenter(lambda: div.style.background_color = "red")
+#div.on_mouseleave(lambda: div.style.background_color = "white")
 
 # Flip the image when the mouse is hovered
 if st.button("Flip Image"):
