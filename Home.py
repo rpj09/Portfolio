@@ -4,6 +4,11 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
+"""
+[class="css-1kyxreq etr89bj2"]{
+    justify-content: center;
+}
+"""
 
 
 pg_bg_gradient = """
@@ -21,7 +26,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 #after flip card another image
 card = """
 <style>
-[class="css-1kyxreq etr89bj2"]{
+[class="css-1a32fsj e19lei0e0"]{
     justify-content: center;
 }
 [class="css-1a32fsj e19lei0e0"]{
