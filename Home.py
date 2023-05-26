@@ -10,7 +10,7 @@ pg_bg_gradient = """
 
 <style>
 [class="main css-uf99v8 egzxvld5"]{
-  background-image: url("https://images.unsplash.com/photo-1637055159652-2b8837731f00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80");
+background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
 }
 </style>
 
