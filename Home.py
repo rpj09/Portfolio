@@ -30,7 +30,7 @@ card = """
 [class="css-1kyxreq etr89bj2"]:hover img {
   transform: rotateY(180deg);
   background-image: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
-  z-index: 1;
+  z-index: 2;
 }
 
 </style>
