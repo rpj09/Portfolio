@@ -31,6 +31,7 @@ card = """
     border-radius: 30px;
     -webkit-border-radius: 30px;
     background-color: #554983;
+    width: 400px;
 }
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
