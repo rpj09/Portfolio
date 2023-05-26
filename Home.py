@@ -18,7 +18,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 card = """
 <style>
-[class="css-1v0mbdj etr89bj1"]{
+[class="css-1kyxreq etr89bj2"]{
     justify-content: right;
 }
 
