@@ -21,15 +21,10 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 #after flip card another image
 card = """
 <style>
-[class="css-1a32fsj e19lei0e0"]{
-    box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
-    -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
-    -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    background-color: #554983;
-    width: 400px;
+[class="css-1kyxreq etr89bj2"]{
+    justify-content: center;
 }
+
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
   height: 100%;
@@ -50,11 +45,6 @@ card = """
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
-"""
-[class="css-1kyxreq etr89bj2"]{
-    justify-content: center;
-}
-"""
 
 def load_lottie(link):
     r = requests.get(link)
