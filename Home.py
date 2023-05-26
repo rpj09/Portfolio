@@ -17,6 +17,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 """
 
 card = """
+<style>
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
@@ -44,6 +45,7 @@ card = """
   position: relative;
   z-index: 2;
 }
+</style>
 """
 #background-image: linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(4,34,54,1) 50%, rgba(9,16,21,1) 100%);
 
