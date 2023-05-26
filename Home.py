@@ -28,7 +28,7 @@ card = """
     box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
-    border-radius: 20px;
+    border-radius: 30px;
 
 }
 [class="css-1kyxreq etr89bj2"] img {
