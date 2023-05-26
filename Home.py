@@ -16,6 +16,9 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 """
 
+
+
+
 card = """
 <style>
 [class="css-1kyxreq etr89bj2"]{
@@ -32,9 +35,8 @@ card = """
 }
 
 [class="css-1kyxreq etr89bj2"]:hover::before {
-  content: "";
+  content: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
   position: absolute;
-  background-image: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotateY(180deg);
