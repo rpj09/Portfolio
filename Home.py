@@ -87,7 +87,7 @@ with st.container():
         st.write("[Explore more about my work on github ](https://github.com/rpj09)")
 
 with right_column:
-    st_lottie(lottie_gif, height=300, key="coding")
+    st_lottie(lottie_gif, height=400, key="coding")
 
 with st.container():
     left_column,right_column = st.columns(2)
