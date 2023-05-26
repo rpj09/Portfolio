@@ -23,19 +23,21 @@ card = """
 <style>
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
+    box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
+    -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
+    -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
+
+
 }
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
   height: 100%;
   transition: transform 0.75s ease-in-out;
   transform-style: preserve-3d;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
 }
 [class="css-1kyxreq etr89bj2"]:hover img {
   transform: rotateY(180deg);
-  background-image: url(https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80);
-  z-index:0;
+
 }
 </style>
 """
