@@ -21,7 +21,30 @@ card = """
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
+[class="css-1kyxreq etr89bj2"] {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: background-color 0.5s ease-in-out;
+  box-shadow: 0 1px 3px 0 #ccc;
+}
 
+[class="css-1kyxreq etr89bj2"] img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(100px);
+  transform-origin: 0 0;
+}
+
+[class="css-1kyxreq etr89bj2"]:hover img {
+  transform: perspective(100px) rotateY(-5deg);
+}
 </style>
 
 """
