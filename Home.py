@@ -33,11 +33,7 @@ card = """
 [class="css-1kyxreq etr89bj2"]:hover::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80"); /* Replace with img2 URL */
+  background-image: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotateY(180deg);
