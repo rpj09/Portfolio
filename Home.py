@@ -21,7 +21,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
-st.markdown(pg_bg_gradient)
+st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown("""
     <style>
     [class="block-container css-z5fcl4 egzxvld4"]{
@@ -98,7 +98,7 @@ with st.container():
             """
         )
     with right_column:
-        st.image(github_card,use_column_width=True)      
+        st.image(github_card)      
 
 
 with st.container():
@@ -245,6 +245,7 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty() 
+
 
 
 
