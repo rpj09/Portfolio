@@ -29,6 +29,7 @@ card = """
   height: 100%;
   transition: transform 0.75s ease-in-out;
   transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 [class="css-1kyxreq etr89bj2"]:hover img {
   transform: rotateY(180deg);
