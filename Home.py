@@ -21,7 +21,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
-st.markdown(pg_bg_gradient, unsafe_allow_html=True)
+st.markdown(pg_bg_gradient)
 st.markdown("""
     <style>
     [class="block-container css-z5fcl4 egzxvld4"]{
@@ -249,30 +249,3 @@ with st.container():
 
 
 
-
-
-# Load the images
-front_image = Image.open("images/gitcardmain.png")
-back_image = Image.open("images/gitcardmain.png")
-
-# Create a div element
-div = st.div(
-  children=[
-    Image(src=front_image, width=529),
-  ],
-  style={
-    "position": "relative",
-    "width": 529,
-    "height": 200,
-    "border": "1px solid black",
-    "cursor": "pointer",
-  },
-)
-
-# Add a listener for mouseenter and mouseleave events
-#div.on_mouseenter(lambda: div.style.background_color = "red")
-#div.on_mouseleave(lambda: div.style.background_color = "white")
-
-# Flip the image when the mouse is hovered
-if st.button("Flip Image"):
-  div.image = back_image
