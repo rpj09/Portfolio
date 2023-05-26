@@ -33,19 +33,7 @@ card = """
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
-"""
-st.markdown(""
-    <style>
-    [class="block-container css-z5fcl4 egzxvld4"]{
-    padding-right: 1rem;
-    padding-left: 1rem;
 
-    </style>
-
-    ""
-    , unsafe_allow_html=True)
-
-"""
 def load_lottie(link):
     r = requests.get(link)
     if r.status_code !=200:
