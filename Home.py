@@ -29,7 +29,7 @@ card = """
   height: 100%;
   transition: transform 0.75s ease-in-out;
   transform-style: preserve-3d;
-  shape-outside: circle();
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 [class="css-1kyxreq etr89bj2"]:hover img {
