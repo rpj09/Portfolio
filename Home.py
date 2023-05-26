@@ -10,7 +10,7 @@ pg_bg_gradient = """
 
 <style>
 [class="main css-uf99v8 egzxvld5"]{
-background-image:linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(31,1,59,1) 50%, rgba(9,16,21,1) 100%);
+background-image:linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(31,5,55,1) 50%, rgba(9,16,21,1) 100%);
 }
 </style>
 
