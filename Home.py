@@ -40,6 +40,7 @@ card = """
 #setting configurations
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
+st.markdown(card, unsafe_allow_html=True)
 st.markdown("""
     <style>
     [class="block-container css-z5fcl4 egzxvld4"]{
