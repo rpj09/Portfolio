@@ -71,7 +71,7 @@ with st.container():
         st.subheader("Hi, I am Ripunjay :wave:")
         st.title("A passionate learner and Python Developer")
         st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
-        st.write("[Explore more about my work>](https://github.com/rpj09)")
+        st.write("[Explore more about my work ](https://github.com/rpj09)")
 
 with right_column:
     st_lottie(lottie_gif, height=300, key="coding")
