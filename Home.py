@@ -22,9 +22,6 @@ card = """
     justify-content: center;
 }
 [class="css-1kyxreq etr89bj2"] {
-  position: relative;
-  width: 100px;
-  height: 100px;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 10px;
