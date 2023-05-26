@@ -15,6 +15,24 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 </style>
 
 """
+
+card = """
+<style>
+[class="css-1v0mbdj etr89bj1"]{
+    .card {
+        width: 130px;
+        height: 195px;
+        background: url("https://rpj-dev.streamlit.app/~/+/media/5a91c54fd5bd770953efd6ceb70e95190b7e9353d2f5a2e3060fcbe5.png") no-repeat;
+        display: inline-block;
+    }
+    .card:hover {
+        background: url("https://rpj-dev.streamlit.app/~/+/media/5a91c54fd5bd770953efd6ceb70e95190b7e9353d2f5a2e3060fcbe5.png") no-repeat;
+    }
+}
+
+</style>
+
+"""
 #background-image: linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(4,34,54,1) 50%, rgba(9,16,21,1) 100%);
 
 #background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
