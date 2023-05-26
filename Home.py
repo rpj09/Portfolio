@@ -245,22 +245,33 @@ with st.container():
     with right_column:
         st.empty() 
 
-"""
-#new card
-def flip_card(card):
-    card.style.apply("transform: rotateY(180deg);", 0.5)
 
-def change_style(card):
-    card.style.apply("box-shadow: 0 0 0 2px #f0f, 0 0 0 3px #f0f;", 0.5)
+
+
+
+
 # Load the images
 front_image = Image.open("images/gitcardmain.png")
 back_image = Image.open("images/gitcardmain.png")
 
-# Create a card
-card = st.card(
-  title="My Card",
-  content=front_image,
-  on_mouseover=change_style
+# Create a div element
+div = st.div(
+  children=[
+    Image(src=front_image, width=529),
+  ],
+  style={
+    "position": "relative",
+    "width": 529,
+    "height": 200,
+    "border": "1px solid black",
+    "cursor": "pointer",
+  },
 )
 
-"""
+# Add a listener for mouseenter and mouseleave events
+div.on_mouseenter(lambda: div.style.background_color = "red")
+div.on_mouseleave(lambda: div.style.background_color = "white")
+
+# Flip the image when the mouse is hovered
+if st.button("Flip Image"):
+  div.image = back_image
