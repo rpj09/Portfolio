@@ -24,7 +24,7 @@ card = """
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
-class="css-1a32fsj e19lei0e0"]{
+[class="css-1a32fsj e19lei0e0"]{
     box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
