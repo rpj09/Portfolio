@@ -18,7 +18,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 
 
-
+#after flip card another image
 card = """
 <style>
 [class="css-1kyxreq etr89bj2"]{
@@ -29,6 +29,7 @@ card = """
   height: 100%;
   transition: transform 0.75s ease-in-out;
   transform-style: preserve-3d;
+  shape-outside: circle();
   z-index: 1;
 }
 [class="css-1kyxreq etr89bj2"]:hover img {
