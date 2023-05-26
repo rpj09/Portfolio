@@ -24,7 +24,7 @@ card = """
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
   height: 100%;
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.75s ease-in-out;
 }
 
 [class="css-1kyxreq etr89bj2"]:hover img {
