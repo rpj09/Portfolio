@@ -19,15 +19,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 card = """
 <style>
 [class="css-1v0mbdj etr89bj1"]{
-    .card {
-        width: 130px;
-        height: 195px;
-        background: url("https://rpj-dev.streamlit.app/~/+/media/5a91c54fd5bd770953efd6ceb70e95190b7e9353d2f5a2e3060fcbe5.png") no-repeat;
-        display: inline-block;
-    }
-    .card:hover {
-        background: url("https://rpj-dev.streamlit.app/~/+/media/5a91c54fd5bd770953efd6ceb70e95190b7e9353d2f5a2e3060fcbe5.png") no-repeat;
-    }
+    justify-content: right;
 }
 
 </style>
