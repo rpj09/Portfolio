@@ -4,11 +4,6 @@ import requests
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-"""
-[class="css-1kyxreq etr89bj2"]{
-    justify-content: center;
-}
-"""
 
 
 pg_bg_gradient = """
@@ -55,6 +50,11 @@ card = """
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
+"""
+[class="css-1kyxreq etr89bj2"]{
+    justify-content: center;
+}
+"""
 
 def load_lottie(link):
     r = requests.get(link)
