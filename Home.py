@@ -27,9 +27,6 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 card = """
 <style>
 [class="css-1a32fsj e19lei0e0"]{
-    justify-content: center;
-}
-[class="css-1a32fsj e19lei0e0"]{
     box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -webkit-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
     -moz-box-shadow: 7px 3px 167px 15px rgba(98, 54, 122, 0.85);
