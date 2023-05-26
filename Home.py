@@ -24,32 +24,31 @@ card = """
 [class="css-1kyxreq etr89bj2"]{
     justify-content: center;
 }
+[class="css-1kyxreq etr89bj2"] {
+  position: relative;
+  perspective: 1000px;
+}
+
+[class="css-1kyxreq etr89bj2"]:hover img:last-child {
+  transform: rotateY(180deg);
+}
+
 [class="css-1kyxreq etr89bj2"] img {
+  position: absolute;
   width: 100%;
   height: 100%;
   transition: transform 0.75s ease-in-out;
+  backface-visibility: hidden;
 }
 
-[class="css-1kyxreq etr89bj2"] {
-  position: relative;
-}
-
-[class="css-1kyxreq etr89bj2"]:hover::before {
-  content: url("https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80");
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-
-[class="css-1kyxreq etr89bj2"] img {
-  position: relative;
+[class="css-1kyxreq etr89bj2"] img:first-child {
   z-index: 2;
+}
+
+[class="css-1kyxreq etr89bj2"] img:last-child {
+    transform: rotateY(180deg);
+    background-image: url(https://images.unsplash.com/photo-1684873206820-bf780037ca09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2564&q=80)
+    z-index: 1;
 }
 </style>
 """
