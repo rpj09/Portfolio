@@ -20,6 +20,7 @@ card = """
 <style>
 [class="css-1kyxreq etr89bj2"]{
     justify-content: right;
+    padding-right: 3rem;
 }
 
 </style>
