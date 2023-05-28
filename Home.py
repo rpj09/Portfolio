@@ -129,8 +129,8 @@ with Home:
             st.subheader("Github Contribution Graph")
             st.image("https://ghchart.rshah.org/9442e3/rpj09",use_column_width=True)
         with right_column:
-            with st.container():
-                st.image(github_card,use_column_width=True)      
+
+            st.image(github_card,use_column_width=True)      
 
 
     with st.container():
