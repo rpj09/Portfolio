@@ -111,6 +111,7 @@ with st.container():
             
             """
         )
+        st.image("https://ghchart.rshah.org/9442e3/rpj09",width=100)
     with right_column:
         st.image(github_card,width=400)      
 
