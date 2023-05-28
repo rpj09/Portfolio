@@ -278,8 +278,6 @@ with Home:
             st.empty() 
 
 with Resume:
-    st.markdown(pg_bg, unsafe_allow_html=True)
-
     st.title("Resume")
     st.markdown("## Ripunjay Singh")
     res1 = Image.open("images/res1.jpg")
