@@ -28,7 +28,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     background: transparent;
   }
   
-  .css-1r6slb0 {
+  .css-1ggrkjp {
     padding-top: 3rem;
   }
 
@@ -38,22 +38,22 @@ input[type=message], input[type=email], input[type=text], textarea {
   }
 
 
-  .css-1r6slb0 {
+  .css-1ggrkjp {
     position: relative;
     perspective: 1000px;
   }
   
-  .css-1r6slb0 img {
+  .css-1ggrkjp img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
   }
   
-  .css-1r6slb0:hover img {
+  .css-1ggrkjp:hover img {
     transform: rotateY(180deg);
   }
   
-  .css-1r6slb0:after {
+  .css-1ggrkjp:after {
     content: "";
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     transition: opacity 0.3s;
   }
   
-  .css-1r6slb0:hover:after {
+  .css-1ggrkjp:hover:after {
     opacity: 1;
   }
   
