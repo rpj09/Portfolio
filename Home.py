@@ -110,7 +110,7 @@ with st.container():
             """
         )
         st.subheader("Github Contribution Graph")
-        st.image("https://ghchart.rshah.org/9442e3/rpj09",use_column_width=True)
+        st.image("https://ghchart.rshah.org/9442e3/rpj09",width=600)
     with right_column:
         st.image(github_card,width=400)      
 
