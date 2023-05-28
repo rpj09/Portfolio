@@ -43,11 +43,6 @@ input[type=message], input[type=email], input[type=text], textarea {
     perspective: 1000px;
   }
   
-  .css-1r6slb0 {
-    position: relative;
-    perspective: 1000px;
-  }
-  
   .css-1r6slb0 img {
     width: 100%;
     height: auto;
@@ -56,9 +51,10 @@ input[type=message], input[type=email], input[type=text], textarea {
   
   .css-1r6slb0:hover img {
     transform: rotateY(180deg);
+    opacity: 0; /* Hide the original image on hover */
   }
   
-  .css-1r6slb0:before {
+  .css-1r6slb0:after {
     content: "";
     position: absolute;
     top: 0;
@@ -67,15 +63,15 @@ input[type=message], input[type=email], input[type=text], textarea {
     height: 100%;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1; /* Ensure the overlay image is displayed above the original image */
+  }
+  
+  .css-1r6slb0:hover:after {
     background-image: url('https://raw.githubusercontent.com/rpj09/Portfolio/master/images/backcard.png');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 0.3s;
-    z-index: 1000;
-  }
-  
-  .css-1r6slb0:hover:before {
     opacity: 1;
   }
   
