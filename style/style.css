@@ -37,7 +37,7 @@ input[type=message], input[type=email], input[type=text], textarea {
      padding: 2rem 4rem 6rem;
   }
 
-
+/* 
   .css-1r6slb0 {
     position: relative;
     perspective: 1000px;
@@ -51,7 +51,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   
   .css-1r6slb0:hover img {
     transform: rotateY(180deg);
-    opacity: 0; /* Hide the original image on hover */
+    opacity: 0; 
   }
   
   .css-1r6slb0:after {
@@ -65,7 +65,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     transform: rotateY(180deg);
     opacity: 0;
     transition: opacity 0.3s;
-    z-index: -1; /* Move the overlay image below the original image */
+    z-index: -1; 
   }
   
   .css-1r6slb0:hover:after {
@@ -75,7 +75,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     background-repeat: no-repeat;
     opacity: 1;
   }
-  
+*/
   
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
