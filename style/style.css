@@ -36,7 +36,9 @@ input[type=message], input[type=email], input[type=text], textarea {
 
      padding: 2rem 4rem 6rem;
   }
-
+  .css-rbehlg{
+    border-radius: 3px;
+  }
   
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
