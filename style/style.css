@@ -62,11 +62,11 @@ input[type=message], input[type=email], input[type=text], textarea {
     height: 100%;
     backface-visibility: hidden;
     transform: rotateY(180deg);
-    background-image: url('URL_OF_ANOTHER_IMAGE');
+    background-image: url('https://github.com/rpj09/Portfolio/blob/a00d45a8af755ad694bab3ee3823c0bdd17b310e/images/backcard.png');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.75s;
   }
   
   .css-1ggrkjp:hover:after {
