@@ -36,8 +36,39 @@ input[type=message], input[type=email], input[type=text], textarea {
 
      padding: 2rem 4rem 6rem;
   }
-  .css-rbehlg{
-    border-radius: 3px;
+  .css-rbehlg {
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .css-rbehlg img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.75s;
+  }
+  
+  .css-rbehlg:hover img {
+    transform: rotateY(180deg);
+  }
+  
+  .css-rbehlg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url('URL_OF_ANOTHER_IMAGE');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .css-rbehlg:hover:after {
+    opacity: 1;
   }
   
   /* Hide Streamlit Branding */
