@@ -27,6 +27,14 @@ input[type=message], input[type=email], input[type=text], textarea {
   .st-c7 {
     background: transparent;
   }
+  
+  .css-1r6slb0 {
+    padding-top: 3rem 1rem 6rem;
+  }
+
+  .css-z5fcl4{
+    padding-top: 1rem;
+  }
 
   
   /* Hide Streamlit Branding */
