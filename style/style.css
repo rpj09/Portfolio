@@ -36,22 +36,24 @@ input[type=message], input[type=email], input[type=text], textarea {
 
      padding: 2rem 4rem 6rem;
   }
-  .css-rbehlg {
+
+
+  .css-1v0mbdj {
     position: relative;
     perspective: 1000px;
   }
   
-  .css-rbehlg img {
+  .css-1v0mbdj img {
     width: 100%;
     height: auto;
-    transition: transform 0.75s;
+    transition: transform 0.3s;
   }
   
-  .css-rbehlg:hover img {
+  .css-1v0mbdj:hover img {
     transform: rotateY(180deg);
   }
   
-  .css-rbehlg:after {
+  .css-1v0mbdj:after {
     content: "";
     position: absolute;
     top: 0;
@@ -67,7 +69,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     transition: opacity 0.3s;
   }
   
-  .css-rbehlg:hover:after {
+  .css-1v0mbdj:hover:after {
     opacity: 1;
   }
   
