@@ -40,6 +40,14 @@ card = """
 }
 </style>
 """
+
+tansbuttonbg1 = """
+<style>
+[class="st-bv st-bw st-b6 st-b5 st-ar st-as st-bx st-by st-bz st-c0 st-c1 st-c2 st-c3 st-c4 st-c5 st-c6 st-c7 st-c8 st-c9 st-ca st-cb st-cu st-cd st-ce st-b1 st-cf st-cg st-ch st-ci st-cj st-ck st-cl st-cm st-ae st-cn st-ag st-ah st-ai st-aj st-co st-cp st-cq st-cr st-cs st-ct"]{
+background: transparent;
+}
+</style>
+"""
 #background-image: linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(4,34,54,1) 50%, rgba(9,16,21,1) 100%);
 
 #background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
@@ -48,6 +56,7 @@ card = """
 st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_sidebar_state="expanded")
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
+st.markdown(tansbuttonbg1, unsafe_allow_html=True)
 
 def load_lottie(link):
     r = requests.get(link)
