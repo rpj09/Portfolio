@@ -28,7 +28,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     background: transparent;
   }
   
-  .css-41u93z {
+  .css-1r6slb0 {
     padding-top: 3rem;
   }
 
@@ -38,40 +38,40 @@ input[type=message], input[type=email], input[type=text], textarea {
   }
 
 
-  .css-41u93z {
-    position: relative;
-    perspective: 1000px;
-  }
-  
-  .css-41u93z img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s;
-  }
-  
-  .css-41u93z:hover img {
-    transform: rotateY(180deg);
-  }
-  
-  .css-41u93z:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-    background-image: url('https://github.com/rpj09/Portfolio/blob/a00d45a8af755ad694bab3ee3823c0bdd17b310e/images/backcard.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0;
-    transition: opacity 0.75s;
-  }
-  
-  .css-41u93z:hover:after {
-    opacity: 1;
-  }
+.css-1v0mbdj.etr89bj1 {
+  position: relative;
+  perspective: 1000px;
+}
+
+.css-1v0mbdj.etr89bj1 img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.css-1v0mbdj.etr89bj1:hover img {
+  transform: rotateY(180deg);
+}
+
+.css-1v0mbdj.etr89bj1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-image: url('URL_OF_ANOTHER_IMAGE');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.css-1v0mbdj.etr89bj1:hover:after {
+  opacity: 1;
+}
   
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
