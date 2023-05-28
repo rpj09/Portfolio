@@ -90,7 +90,7 @@ with right_column:
     st_lottie(lottie_gif, height=400, key="coding")
 
 with st.container():
-    column_widths = [2, 1.3]
+    column_widths = [2, 1]
     left_column,right_column = st.columns(column_widths)
     with left_column:
         st.write("---")
@@ -113,7 +113,7 @@ with st.container():
         st.subheader("Github Contribution Graph")
         st.image("https://ghchart.rshah.org/9442e3/rpj09",use_column_width=True)
     with right_column:
-        st.image(github_card,width=400)      
+        st.image(github_card,use_column_width=True)      
 
 
 with st.container():
