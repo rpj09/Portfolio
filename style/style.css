@@ -38,40 +38,40 @@ input[type=message], input[type=email], input[type=text], textarea {
   }
 
 
-.css-1v0mbdj.etr89bj1 {
-  position: relative;
-  perspective: 1000px;
-}
+  .css-1kyxreq {
+    position: relative;
+    perspective: 1000px;
+  }
 
-.css-1v0mbdj.etr89bj1 img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s;
-}
+  .css-1kyxreq img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
 
-.css-1v0mbdj.etr89bj1:hover img {
-  transform: rotateY(180deg);
-}
+  .css-1kyxreq:hover img {
+    transform: rotateY(180deg);
+  }
 
-.css-1v0mbdj.etr89bj1:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  background-image: url('URL_OF_ANOTHER_IMAGE');
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
+  .css-1kyxreq:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url('URL_OF_ANOTHER_IMAGE');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
 
-.css-1v0mbdj.etr89bj1:hover:after {
-  opacity: 1;
-}
+  .css-1kyxreq:hover:after {
+    opacity: 1;
+  }
   
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
