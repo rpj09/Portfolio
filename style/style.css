@@ -38,22 +38,22 @@ input[type=message], input[type=email], input[type=text], textarea {
   }
 
 
-  .css-1kyxreq {
+  .css-1r6slb0 {
     position: relative;
     perspective: 1000px;
   }
 
-  .css-1kyxreq img {
+  .css-1r6slb0 img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
   }
 
-  .css-1kyxreq:hover img {
+  .css-1r6slb0:hover img {
     transform: rotateY(180deg);
   }
 
-  .css-1kyxreq:after {
+  .css-1r6slb0:after {
     content: "";
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     transition: opacity 0.3s;
   }
 
-  .css-1kyxreq:hover:after {
+  .css-1r6slb0:hover:after {
     opacity: 1;
   }
   
