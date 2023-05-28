@@ -72,7 +72,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     background-repeat: no-repeat;
     opacity: 0;
     transition: opacity 0.3s;
-    z-index: 1;
+    z-index: 1000;
   }
   
   .css-1r6slb0:hover:before {
