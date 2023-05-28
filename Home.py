@@ -90,7 +90,7 @@ with right_column:
     st_lottie(lottie_gif, height=400, key="coding")
 
 with st.container():
-    column_widths = [2, 1]
+    column_widths = [2, 1.5]
     left_column,right_column = st.columns(column_widths)
     with left_column:
         st.write("---")
