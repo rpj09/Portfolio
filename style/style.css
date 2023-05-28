@@ -38,22 +38,22 @@ input[type=message], input[type=email], input[type=text], textarea {
   }
 
 
-  .css-1v0mbdj {
+  .css-rbehlg {
     position: relative;
     perspective: 1000px;
   }
   
-  .css-1v0mbdj img {
+  .css-rbehlg img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
   }
   
-  .css-1v0mbdj:hover img {
+  .css-rbehlg:hover img {
     transform: rotateY(180deg);
   }
   
-  .css-1v0mbdj:after {
+  .css-rbehlg:after {
     content: "";
     position: absolute;
     top: 0;
@@ -69,7 +69,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     transition: opacity 0.3s;
   }
   
-  .css-1v0mbdj:hover:after {
+  .css-rbehlg:hover:after {
     opacity: 1;
   }
   
