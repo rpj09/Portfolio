@@ -24,7 +24,7 @@ input[type=message], input[type=email], input[type=text], textarea {
     background-color: #45a049;
   }
 
-  button[type=text] {
+  button {
     background-color: transparent;
   }
   
