@@ -79,7 +79,8 @@ gireverb = Image.open("images/gitreverb.png")
 github_card = Image.open("images/gitcardmain.png")
 
 with st.container():
-    left_column,right_column = st.columns(2)
+    column_widths = [2, 1]
+    left_column,right_column = st.columns(column_widths)
     with left_column:
         st.subheader("Hi, I am Ripunjay :wave:")
         st.title("A passionate learner and Python Developer")
