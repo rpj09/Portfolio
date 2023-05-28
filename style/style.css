@@ -24,6 +24,10 @@ input[type=message], input[type=email], input[type=text], textarea {
     background-color: #45a049;
   }
 
+  .st-c7 {
+    background: transparent;
+  }
+
   
   /* Hide Streamlit Branding */
   #MainMenu {visibility: hidden;}
