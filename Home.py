@@ -18,14 +18,7 @@ background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3ae
 
 #background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
 #background-image: radial-gradient(circle, rgba(211,170,245,0.966999299719888) 0%, rgba(15,2,37,0.9810049019607843) 95%);
-
-
-#after flip card another image
-card = """
-<style>
-[class="css-1kyxreq etr89bj2"]{
-    justify-content: center;
-}
+"""
 
 [class="css-1kyxreq etr89bj2"] img {
   width: 100%;
@@ -35,7 +28,14 @@ card = """
 }
 [class="css-1kyxreq etr89bj2"]:hover img {
   transform: rotateY(180deg);
+}
+"""
 
+#after flip card another image
+card = """
+<style>
+[class="css-1kyxreq etr89bj2"]{
+    justify-content: center;
 }
 </style>
 """
