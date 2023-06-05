@@ -48,6 +48,12 @@ background: transparent;
 }
 </style>
 """
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
 #background-image: linear-gradient(180deg, rgba(11,16,19,1) 0%, rgba(4,34,54,1) 50%, rgba(9,16,21,1) 100%);
 
 #background-image: linear-gradient(to right top, #f4bedc, #e7b8df, #d7b2e3, #c3aee6, #acabe8, #979edb, #8192cd, #6c86bf, #596ea2, #465786, #33416b, #212c51);
@@ -57,6 +63,8 @@ st.set_page_config(page_title="Ripunjay Singh Portfolio",layout="wide",initial_s
 st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
 st.markdown(tansbuttonbg1, unsafe_allow_html=True)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 
 def load_lottie(link):
     r = requests.get(link)
