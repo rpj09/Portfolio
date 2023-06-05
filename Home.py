@@ -139,16 +139,13 @@ with Home:
         with right_column:
 
             st.image(github_card,use_column_width=True)      
-
-
+    grid = st.columns(3)
     with st.container():
         st.write("---")
         st.header("My Projects")
-        image_column, text_column = st.columns((1, 2))
-        with image_column:
-            st.image(img_proj1)
 
-        with text_column:
+        with grid[0]:
+            st.image(img_proj1)
             st.subheader("FRIDAY")
             st.write("Wanna make your life easier , I've got something for you")
             st.write(
@@ -162,12 +159,9 @@ with Home:
             st.markdown("[Checkout the project source code here...](https://github.com/rpj09/FRIDAY-virtual-assistant)")
 
     with st.container():
-        image_column, text_column = st.columns((1, 2))
 
-        with image_column:
+         with grid[1]:
             st.image(img_proj2)
-
-        with text_column:
 
             st.subheader("My personal portfolio website")
 
@@ -177,11 +171,8 @@ with Home:
     with st.container():
         image_column, text_column = st.columns((1, 2))
 
-        with image_column:
+        with grid[2]:
             st.image(gireverb, width=200)
-
-        with text_column:
-
             st.subheader("GitReverb")
             st.write("""
             A Social Media webapp for developers to share their projects and get feedback from other developers.
