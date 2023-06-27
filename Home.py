@@ -62,14 +62,7 @@ st.markdown(pg_bg_gradient, unsafe_allow_html=True)
 st.markdown(card, unsafe_allow_html=True)
 st.markdown(tansbuttonbg1, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-html_code = '''
-            <p align="center">
-                <a href="https://github.com/rpj09/">
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=120&duration=3500&pause=5&color=212D53&center=true&multiline=true&width=700&height=155&lines=rpj.dev">
-                </a>
-            </p>
-            '''
-st.markdown(html_code, unsafe_allow_html=True)
+
 
 
 
@@ -107,6 +100,14 @@ github_card = Image.open("images/gitcardmain.png")
 
 Home,Resume = st.tabs(["Home","Resume"])
 
+html_code = '''
+            <p align="center">
+                <a href="https://github.com/rpj09/">
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=120&duration=3500&pause=5&color=212D53&center=true&multiline=true&width=700&height=155&lines=rpj.dev">
+                </a>
+            </p>
+            '''
+st.markdown(html_code, unsafe_allow_html=True)
 
 with Home:
     with st.container():
