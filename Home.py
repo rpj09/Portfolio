@@ -66,7 +66,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 html_code = '''
 <p align="center">
     <a href="https://github.com/rpj09/">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=130517&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=C5AEE5&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast">
     </a>
 </p>
 '''
