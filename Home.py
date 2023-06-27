@@ -63,15 +63,7 @@ st.markdown(card, unsafe_allow_html=True)
 st.markdown(tansbuttonbg1, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-html_code = '''
-<p align="center">
-    <a href="https://github.com/rpj09/">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=212D53&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast">
-    </a>
-</p>
-'''
 
-st.markdown(html_code, unsafe_allow_html=True)
 
 
 def load_lottie(link):
@@ -113,9 +105,18 @@ with Home:
     with st.container():
         left_column,right_column = st.columns(2)
         with left_column:
-            st.subheader("Hi, I am Ripunjay :wave:")
-            st.title("A passionate learner and Python Developer")
-            st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
+            # st.subheader("Hi, I am Ripunjay :wave:")
+            # st.title("A passionate learner and Python Developer")
+            # st.write("I am passionate about learning different technologies and finding ways to automate stuff using python")
+            html_code = '''
+            <p align="left">
+                <a href="https://github.com/rpj09/">
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=2500&pause=500&color=212D53&center=true&vCenter=true&multiline=true&width=445&height=120&lines=Hi!+Ripunjay+Singh+here.;A+passionate+learner+and+;Open+source+Enthusiast">
+                </a>
+            </p>
+            '''
+
+            st.markdown(html_code, unsafe_allow_html=True)
             st.write("[Explore more about my work on github ](https://github.com/rpj09)")
 
     with right_column:
