@@ -63,12 +63,15 @@ st.markdown(card, unsafe_allow_html=True)
 st.markdown(tansbuttonbg1, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.html("""
-           <p align="center">
-            <a href="https://github.com/rpj09/"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=450&size=25&pause=1000&color=B584EE&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast"></a>
-            </p>
-            """, unsafe_allow_html=True)
+html_code = '''
+<p align="center">
+    <a href="https://github.com/rpj09/">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=450&size=25&pause=1000&color=B584EE&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast">
+    </a>
+</p>
+'''
 
+st.markdown(html_code, unsafe_allow_html=True)
 
 
 def load_lottie(link):
