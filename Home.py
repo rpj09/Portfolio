@@ -1,10 +1,8 @@
 
-import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
+import streamlit as st
 from PIL import Image
-
-
+from streamlit_lottie import st_lottie
 
 pg_bg_gradient = """
 
@@ -66,6 +64,7 @@ st.markdown(tansbuttonbg1, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
+
 def load_lottie(link):
     r = requests.get(link)
     if r.status_code !=200:
@@ -100,6 +99,11 @@ github_card = Image.open("images/gitcardmain.png")
 
 Home,Resume = st.tabs(["Home","Resume"])
 
+typing_text = """
+            <p align="center">
+            <a href="https://github.com/rpj09/"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=450&size=25&pause=1000&color=B584EE&center=true&width=435&lines=Hi!+Ripunjay+Singh+here.;Computer+Science+Student;Open+source+Enthusiast"></a>
+            </p>"""
+st.markdown(typing_text, unsafe_allow_html=True)
 
 with Home:
     with st.container():
