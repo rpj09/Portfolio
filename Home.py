@@ -306,13 +306,3 @@ with Resume:
         st.success("Download complete!")
 
 
-
-
-html_code = '''
-            <p align="center">
-                <a href="https://github.com/rpj09/">
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=100&duration=3500&pause=5&color=212D53&center=true&multiline=true&width=700&height=155&lines=rpj.dev">
-                </a>
-            </p>
-            '''
-st.markdown(html_code, unsafe_allow_html=True)
