@@ -111,7 +111,7 @@ with Home:
             html_code = '''
             <p align="left">
                 <a href="https://github.com/rpj09/">
-                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&duration=2500&pause=500&color=212D53&center=true&vCenter=true&multiline=true&width=445&height=120&lines=Hi!+Ripunjay+Singh+here.;A+passionate+learner+and+;Open+source+Enthusiast">
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=500&color=212D53&center=true&vCenter=true&multiline=true&width=750&height=500&lines=Hi!+Ripunjay+Singh+here.;A+passionate+learner+and+;Open+source+Enthusiast">
                 </a>
             </p>
             '''
